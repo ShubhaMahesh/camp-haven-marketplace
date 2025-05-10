@@ -1,4 +1,5 @@
-import type { Config } from "tailwindcss";
+
+import type { Config } from "tailwind-css";
 
 export default {
 	darkMode: ["class"],
@@ -61,6 +62,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				camping: {
+					"forest": "#2C5530",
+					"pine": "#4B7F52",
+					"moss": "#76A562",
+					"earth": "#8B5D33",
+					"sand": "#D9B282",
+					"campfire": "#E77E4D",
+					"sky": "#87CEEB",
+					"night": "#1F2937",
+					"stone": "#9CA3AF"
 				}
 			},
 			borderRadius: {
